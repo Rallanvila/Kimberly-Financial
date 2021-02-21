@@ -200,3 +200,162 @@ footer h3 {
 .social img {
   padding: 20px 40px 0 40px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  nav h2 {
+    font-size: 36px;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  .links {
+    justify-content: space-evenly;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .links h4 {
+    font-size: 12px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .banner h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .banner h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .startingUp {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .startingUp h4 {
+    padding: 20px;
+  }
+
+  .busowner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+  }
+
+  .busowner img {
+    padding: 2px 0;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .partner-header {
+    margin: -2 0 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .partner-header h1 {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  .partners {
+    padding: 20px 0 20px 0;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .partner-list {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .partner-list h2 {
+    font-size: 36px;
+    width: 100%;
+    padding: 20px 0 20px 0;
+  }
+
+  .partner-img {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .location-header {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .location-header h4 {
+    font-size: 36px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-us {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .contact-us h5 {
+    font-size: 16px;
+  }
+
+  .contact-us p a {
+    font-size: 16px;
+  }
+
+  .locations {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .location {
+    height: auto;
+  }
+
+  .location h5 {
+    padding-top: 25px;
+  }
+
+  .social {
+    padding: 20px 0 20px 0;
+    width: 100%;
+  }
+  .social img {
+    padding: 10px;
+    height: 45px;
+    width: auto;
+  }
+}
