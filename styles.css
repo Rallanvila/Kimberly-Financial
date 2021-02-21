@@ -4,6 +4,9 @@
   font-family: "Noto Sans HK", sans-serif;
 }
 
+img {
+  border-radius: 15pxd;
+}
 .container {
   display: flex;
   align-self: center;
@@ -67,25 +70,31 @@ nav h2 {
   font-size: 36px;
 }
 
+/* -------------Business Owner Section------------ */
 .startingUp {
   height: 600px;
   width: 100%;
+  display: block;
 }
 
 .startingUp h2 {
   padding: 40px;
   text-align: center;
 }
+
 .busowner {
-  align-content: center;
-  justify-content: space-evenly;
   padding: 0 100px;
+  width: 90%;
+  justify-content: space-evenly;
 }
 
+/* -------------Partner Header Section------------ */
 .partner-header {
   height: 242px;
   background-color: rgba(0, 53, 152, 100);
   color: white;
+  width: 100%;
+  justify-content: center;
 }
 
 .partner-header h1 {
