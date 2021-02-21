@@ -201,7 +201,7 @@ footer h3 {
   padding: 20px 40px 0 40px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 400px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   nav h2 {
     font-size: 36px;
   }
