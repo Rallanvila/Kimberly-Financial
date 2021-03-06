@@ -34,7 +34,6 @@ nav {
   height: 200px;
   margin: auto;
   justify-content: space-between;
-  text-shadow: 2px 2px black;
 }
 
 nav h2 {
@@ -42,6 +41,7 @@ nav h2 {
   font-size: 72px;
   color: rgba(255, 255, 255, 0.982);
   padding-left: 100px;
+  font-family: "Elsie Swash Caps", cursive;
 }
 
 .links h4 {
@@ -67,12 +67,22 @@ nav h2 {
   align-content: center;
   justify-content: flex-end;
 }
+.overlay {
+  width: 100%;
+  height: 736px;
+  background: #000;
+  opacity: 0.3;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 .headline {
   color: white;
-  text-shadow: 2px 2px black;
   width: 720px;
   display: block;
+  z-index: 1;
 }
 
 .headline h1 {
