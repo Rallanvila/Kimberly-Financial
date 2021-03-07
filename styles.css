@@ -66,6 +66,9 @@ nav h2 {
   width: 100%;
   align-content: center;
   justify-content: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overlay {
   width: 100%;
