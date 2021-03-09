@@ -55,18 +55,18 @@ nav h3 {
 	font-family: "Elsie Swash Caps", cursive;
 }
 
-.links p {
-	align-self: center;
-	justify-content: right;
-	color: rgba(255, 255, 255, 0.982);
-	padding: 0 30px;
-}
-
 .links {
 	display: flex;
 	float: right;
 	padding-right: 100px;
-	font: small;
+}
+
+.links p {
+	align-self: center;
+	justify-content: right;
+	color: rgba(255, 255, 255, 0.982);
+	margin: 0 20px;
+	cursor: pointer;
 }
 
 /* -----------Banner Section-------------- */
@@ -180,72 +180,8 @@ nav h3 {
 }
 
 /* -------------Footer------------ */
-/* footer {
-	height: auto;
-	background-color: rgba(0, 53, 152, 100);
-	justify-content: center;
-	width: 100%;
-	color: rgba(255, 255, 255, 0.982);
-	padding: 40px;
-}
-
-footer h3 {
-	justify-content: center;
-}
-
-.location-header {
-	justify-content: center;
-}
-
-.locations {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-}
-
-.location {
-	width: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	height: 100px;
-	margin: 0 40px;
-}
-
-.location h5 {
-	padding: 10px;
-}
-
-.location p {
-	padding: 5px;
-}
-
-.contact-us {
-	width: 40%;
-	margin: auto;
-	justify-content: space-between;
-	padding: 40px;
-}
-
-.contact-us a {
-	font-size: 24px;
-	color: rgba(255, 255, 255, 0.975);
-}
-
-.social {
-	padding: 40px;
-	width: 100%;
-	justify-content: center;
-}
-
-.social img {
-	padding: 20px 40px 0 40px;
-} */
 
 footer {
-	height: auto;
 	background-color: rgba(0, 53, 152, 100);
 	justify-content: center;
 	width: 100%;
@@ -258,13 +194,14 @@ footer {
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 30px repeat(4, 1fr) 30px;
+	grid-template-rows: 10px repeat(4, 1fr) 10px;
 }
 
 .location-header {
 	grid-row: 2 / span 1;
 	grid-column: 1 / span 4;
 	justify-content: center;
+	padding: 20px 0;
 }
 
 .contact-us {
@@ -321,11 +258,14 @@ footer {
 .social i {
 	padding: 0 15px;
 	font-size: 30px;
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
-	nav h2 {
+	nav h3 {
 		font-size: 36px;
+		text-align: center;
+		padding: 0;
 	}
 
 	nav {
@@ -344,6 +284,27 @@ footer {
 
 	nav {
 		flex-direction: column;
+	}
+	.banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.headline {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		width: 100%;
 	}
 
 	.banner h1 {
@@ -403,6 +364,7 @@ footer {
 		width: 100%;
 		text-align: center;
 		margin: 0;
+		display: flex;
 	}
 
 	.partner-list {
@@ -426,6 +388,12 @@ footer {
 	footer {
 		width: 100%;
 		padding: 20px 0;
+		display: flex;
+	}
+
+	.footer-grid {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.location-header {
@@ -441,6 +409,11 @@ footer {
 		height: auto;
 	}
 
+	.location1,
+	.location2,
+	.location3 {
+		margin: 10px 0;
+	}
 	.contact-us {
 		width: 100%;
 		flex-direction: column;
@@ -463,21 +436,12 @@ footer {
 		height: auto;
 	}
 
-	.location {
-		height: auto;
-	}
-
-	.location h5 {
-		padding-top: 25px;
-	}
-
 	.social {
 		padding: 20px 0 20px 0;
 		width: 100%;
 	}
-	.social img {
+	.social i {
+		font-size: 20px;
 		padding: 10px;
-		height: 45px;
-		width: auto;
 	}
 }
