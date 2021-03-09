@@ -4,11 +4,6 @@
 	font-family: "Noto Sans HK", sans-serif;
 }
 
-/* body {
-	width: 1400px;
-	margin: auto;
-	justify-content: center;
-} */
 h1 {
 	font-size: 72px;
 	opacity: 0.9;
@@ -34,6 +29,9 @@ h5 {
 	opacity: 0.9;
 }
 
+p {
+	opacity: 0.9;
+}
 .container {
 	display: flex;
 	align-self: center;
@@ -329,7 +327,8 @@ footer {
 	}
 
 	.startingUp h4 {
-		padding: 20px;
+		padding: 35px;
+		font-size: 36px;
 	}
 
 	.busowner {
@@ -348,37 +347,35 @@ footer {
 	}
 
 	.partner-header {
-		margin: -2 0 0 0;
+		margin: 0;
 		width: 100%;
-		height: auto;
+		padding: 20px 0;
 	}
 
-	.partner-header h1 {
+	.partner-header h3 {
 		font-size: 36px;
-		padding: 20px;
 	}
 
 	.partners {
-		padding: 20px 0 20px 0;
 		height: auto;
 		width: 100%;
-		text-align: center;
-		margin: 0;
+		padding: 0;
+		margin: 20px 0;
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
 	}
 
 	.partner-list {
+		padding: 0;
+		margin: 0;
+		width: 100%;
 		text-align: center;
 		justify-content: center;
-		padding: 0;
-		width: 100%;
-		margin: 0;
-	}
-
-	.partner-list h2 {
-		font-size: 36px;
-		width: 100%;
-		padding: 20px 0 20px 0;
+		align-self: center;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.partner-img {
