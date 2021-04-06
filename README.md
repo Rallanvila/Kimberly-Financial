@@ -19,6 +19,6 @@ Project is created with:
 - HTML
 - CSS
 
-## See the email below!
+## See the Landing Page below!
 
 [Link to Landing Page](https://rallanvila.github.io/Kimberly-Financial/)
